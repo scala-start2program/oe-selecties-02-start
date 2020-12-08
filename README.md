@@ -21,16 +21,27 @@ De controls :
 > 2100 is geen schrikkeljaar  
 > 2000 is wel schrikkeljaar  
 
-Gebruik hier geneste if … else … voor  
-  * Wanneer op btnYearMin wordt geklikt moet het jaartal met 1 worden verlaagd en dient lblLeapYear aangepast te worden.
-  * Wanneer op btnYearPlus wordt geklikt moet het jaartal met 1 worden verhoogd en dient lblLeapYear aangepast te worden.
-  * Wanneer de gebruiker zelf het jaartal verandert in txtYear, dan dient lblLeapYear ook aangepast te worden.
+Gebruik hier geneste if … else … voor   
+  * Wanneer op btnYearMin wordt geklikt moet het jaartal met 1 worden verlaagd en dient lblLeapYear aangepast te worden.  
+  * Wanneer op btnYearPlus wordt geklikt moet het jaartal met 1 worden verhoogd en dient lblLeapYear aangepast te worden.  
+  * Wanneer de gebruiker zelf het jaartal verandert in txtYear, dan dient lblLeapYear ook aangepast te worden.  
 
-> **TIP**
->   * De gebruiker kan natuurlijk om het even wat in het tekstvak invoeren.  Gebruik hier dus de int.TryParse methode
+> **TIP**  
+>   * De gebruiker kan natuurlijk om het even wat in het tekstvak invoeren.  Gebruik hier dus de int.TryParse methode  
 >   * Het TextChanged event van een texbox wordt al getriggerd van zodra je window opstart wat een exception zal opleveren.  Plaats de code van deze event handler binnen volgende selectie :  
 >  
->  if (txtYear.IsLoaded)
->   {
->        …
->   }
+>  if (txtYear.IsLoaded)  
+>   {  
+>        …  
+>   }  
+
+  * Wanneer in cmbMonths een maand geselecteerd wordt, dan dient in lblSeason het seizoen waarbinnen deze maand valt te verschijnen (zie voorbeeld bovenaan).  
+    We gebruiken gemakshalve de meteorologische seizoenen :   
+    * Lente = maart, april, mei  
+    * Zomer = juni, juli, augustus  
+    * Herfst = september, oktober, november  
+    * Winter = december, januari, februari  
+
+    Denk zelf eens na hoe je dit zo eenvoudig mogelijk kunt oplossen (werk m.a.w. niet met vergelijkingen van de maandnamen)  
+    Gebruik voor deze oefening de if … else if … else if … else …  
+
