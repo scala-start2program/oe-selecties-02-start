@@ -1,7 +1,7 @@
-﻿<Application x:Class="Prb.JarenEnSeizoenen.WPF.App"
+﻿<Application x:Class="Scala.JarenEnSeizoenen.WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Prb.JarenEnSeizoenen.WPF"
+             xmlns:local="clr-namespace:Scala.JarenEnSeizoenen.WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

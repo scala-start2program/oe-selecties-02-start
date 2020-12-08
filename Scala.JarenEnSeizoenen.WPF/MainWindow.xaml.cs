@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Prb.JarenEnSeizoenen.WPF
+namespace Scala.JarenEnSeizoenen.WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
